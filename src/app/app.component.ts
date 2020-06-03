@@ -23,8 +23,6 @@ export class AppComponent {
           this.sourceList.push(new Satellite (fetchedSatellites[i].name, fetchedSatellites[i].type, fetchedSatellites[i].launchDate, fetchedSatellites[i].orbitType, fetchedSatellites[i].operational));
         }
 
-        console.log('sourceList: ', this.sourceList);
-
      }.bind(this));
   }.bind(this));
 
